@@ -11,7 +11,52 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="./stylesheet.css" />
-		<title>Document</title>
 	</head>
-	<body></body>
+	<body>
+		<!-- FIRST PART -->
+		<!-- HEADER + BACKGROUND -->
+		<div class="macro">
+			<div class="container">
+				<div class="header">
+					<!-- NAVI -->
+					<div v-else class="navi__home">
+						<a to="/"
+							><img class="navi__left" src="./assets/PACHAQUTEC_LOGO_BLANCO.png" />
+						</a>
+						<div class="navi__right">
+							<a class="navi__rightBadge">
+								<img src="./assets/cart001.png" />
+								<span id="counter" class="badge">0</span>
+							</a>
+							<img
+								@click="handleMenu"
+								style="cursor: pointer"
+								src="./assets/Hamburger.png"
+							/>
+						</div>
+					</div>
+					<!-- TITLES -->
+					<div class="header__titles">
+						<h1 class="header__titles__main">¡Explota todo tu potencial tecnológico!</h1>
+						<h3 class="header__titles__second">
+							Con nuestros programas de especialización
+						</h3>
+					</div>
+				</div>
+				<!-- THIS IS THE START OF THE SECOND PART -->
+				<div class="sponsors">
+					<div class="sponsor__images">
+						<div v-if="dark" class="sponsors__Item">
+							<img class="sponsors__ItemImg" src="./assets/INTERCORP_LOGO_NEGRO.png" />
+							<img class="sponsors__ItemImg" src="./assets/IDAT_LOGO_NEGRO.png" />
+							<img class="sponsors__ItemImg" src="./assets/ZEGEL_LOGO_NEGRO.png" />
+						</div>
+					</div>
+					<div class="sponsors__arrow">
+						<img alt="" src="./assets/arrowhead-down@2x.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
