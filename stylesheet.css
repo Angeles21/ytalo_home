@@ -130,6 +130,7 @@ img {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(344px, 1fr));
 }
+/**/
 .cardCourse__item {
 	height: 320px;
 	overflow: hidden;
@@ -193,4 +194,70 @@ a {
 span {
 	font-size: 14px;
 	font-weight: 700;
+}
+
+/* FOURTH PART */
+
+.feature {
+	width: 100%;
+	z-index: -1;
+	color: #ffffff;
+	position: relative;
+	margin: 159px 0 139px;
+	background: linear-gradient(#3015fd, #5640ff);
+}
+
+.feature__wrapper {
+	margin: auto;
+	height: 282px;
+	max-width: 1366px;
+	position: relative;
+}
+
+.feature__image {
+	z-index: 1;
+	left: -7.6rem;
+	bottom: -4.6rem;
+	position: absolute;
+}
+
+.feature__content {
+	height: 100%;
+	display: flex;
+	max-width: 563px;
+	margin-left: 243px;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.feature__contentTitle {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 20px;
+	font-family: "Poppins", sans-serif;
+}
+
+.feature_contentText {
+	font-size: 14px;
+	line-height: 19px;
+	font-family: "Roboto", sans-serif;
+}
+
+.feature_contentText:not(:last-child) {
+	margin-bottom: 14px;
+}
+/* FIFTH PART */
+
+.benefits {
+	margin-bottom: 80px;
+}
+
+.benefits__title {
+	font-size: 20px;
+	color: #222222;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 30px;
+	font-family: "Poppins", sans-serif;
 }
