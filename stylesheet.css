@@ -116,6 +116,10 @@ img {
 
 /*THIRD PART */
 
+.tarjeta {
+	margin-top: 190px;
+}
+
 .tarjeta__list {
 	font-size: 20px;
 	font-weight: 700;
@@ -260,4 +264,46 @@ span {
 	line-height: 24px;
 	margin-bottom: 30px;
 	font-family: "Poppins", sans-serif;
+}
+
+.benefitsCard {
+	display: flex;
+	max-width: 718px;
+	padding: 30px 40px;
+	align-items: center;
+	border-radius: 10px;
+	box-sizing: border-box;
+	background-color: #f2f3f5;
+}
+
+.benefitsCard:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.benefitsCard__content {
+	margin-left: 40px;
+	color: #000425;
+}
+
+.benefitsCard__contentTitle {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 25px;
+	margin-bottom: 20px;
+	font-family: "Poppins", sans-serif;
+}
+
+.benefitsCard__contentBody {
+	font-size: 14px;
+	line-height: 19px;
+	font-family: "Roboto", sans-serif;
+}
+
+/*FOOTER*/
+.footer {
+	width: 100%;
+	height: 102px;
+	background-color: #000d29;
+	font-family: "Open Sans", sans-serif;
+	padding-top: 30px;
 }
